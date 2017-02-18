@@ -35,23 +35,3 @@ BEGIN
 END;
 
 CALL Split(',', ',');
-
-
-/*
-SELECT 
-  @countFields  cntCols,
-  SUBSTRING_INDEX(@headerLine, @delim, 1) lastField;
-;
--- */
-
-/*
-create table if not exists HeaderData (headerLine text);
-
-LOAD DATA INFILE 'c:/Temp/sqlServer2016/T001_0001.TXT' 
-INTO TABLE HeaderData
--- FIELDS TERMINATED BY ',' 
--- ENCLOSED BY '"'
-LINES TERMINATED BY '\n';
-
-select * from HeaderData
-*/
