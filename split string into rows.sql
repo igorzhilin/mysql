@@ -1,4 +1,6 @@
-
+/*
+    This mysql procedure splits a delimited string into rows
+*/
 
 drop procedure if exists Split;
 
